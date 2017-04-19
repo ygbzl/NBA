@@ -7,7 +7,7 @@ public class Test {
 
     public static void main(String[] args) throws Exception {
         Query q = new Query();
-        String[] s = q.QPlayer_Score();
+        String[] s = q.topPlayerPoints();
         System.out.println(s[0] +"\n"+ s[1] +"\n"+ s[2]);
     }
 

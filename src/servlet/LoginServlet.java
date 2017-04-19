@@ -35,7 +35,7 @@ public class LoginServlet extends javax.servlet.http.HttpServlet {
         if(user != null){
             session.setAttribute("msg", "UserName" + user.getUserName() + "Welcome");
             //request.getRequestDispatcher("/NBA.jsp").forward(request, response);  // 返回主界面
-            request.getRequestDispatcher("/index.jsp").forward(request, response);  // 返回主界面
+            request.getRequestDispatcher("/index.html").forward(request, response);  // 返回主界面
 
         }else{
             session.setAttribute("msg", "Incorrect EmailAddress or Password");
